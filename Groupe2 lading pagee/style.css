@@ -1,0 +1,224 @@
+header{
+	 position: relative;
+  	top: 2px;
+  	
+
+}
+nav ul li{
+	display: inline-block;
+	float: right;
+	 text-transform: none;
+	padding: 20px;
+
+
+
+	
+}
+a:hover{
+	color: red;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+
+}
+header nav ul{
+
+	 text-decoration: none;
+	 text-transform: none;
+	 position: relative;
+	 right: 40%;
+	 font-size: 20px;
+	 top: 45px;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+
+}
+.container img{
+	width: 200px;
+	height: 180px;
+	position: relative;
+	left: 5%;
+	top: -2px;
+}
+.services{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(baner.jpg);
+	background-size: cover;
+	height:600px;
+	position: relative;
+	bottom: 50px;
+	background-repeat: no-repeat;
+	backdrop-filter: blur(150px) grayscale(0.5) opacity(100);
+
+}
+.noservice{
+	position: relative;
+	color: white;
+	text-align: center;
+	top: 25%;
+/*	right: 15%;*/
+
+}
+.services h1{
+	font-size: 50px;
+}
+.list-service{
+	
+	float: right;
+	position: relative;
+	right: 450px;
+	color: white;
+	top: 20%;
+	font-size: 27px;
+	line-height: 55px;
+
+}
+.partenaires img{
+	width: 600px;
+	height: 600px;
+	float: right;
+
+}
+.partenaires{
+	height: 600px;
+	
+}
+.partenaires p {
+	font-size: 20px;
+	position: relative;
+	top: 35%;
+	text-align: center;
+	font-family: sans-serif;
+	line-height: 40px;
+
+
+}
+.partenaires h1 {
+	font-size: 35px;
+	position: relative;
+	top: 35%;
+	text-align: center;
+	font-family: sans-serif;
+}
+.realisations{
+	height: 700px;
+	background-color: #F7F4EB;
+}
+.realisations img{
+	width: 625px;
+	height: 650px;
+	position: relative;
+	top: 50px;
+}
+.contact{
+	height: 200px;
+}
+.form {
+  position: relative;
+  top: 15%;
+  padding: 100px 50px;
+  min-width: 300px;
+  font-size: 30px; 
+  
+ 
+}
+
+form h1{
+  color: black;
+  text-align:center;
+  font-size: 35px;
+  font-family: sans-serif;
+
+
+}
+
+form p.choose-email{
+  text-align:center;
+}
+form .inputs {
+  display: flex;
+  flex-direction: column;
+}
+form .inputs input[type='email'], input[type='text']{
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
+}
+
+
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #white;
+  background-color: orange;
+  outline:none;
+  cursor:pointer;
+}
+form button:hover{
+	background-color: red;
+	color: white;
+}
+.formulaire{
+    display: flex;
+  justify-content:center;
+ flex-direction: columns;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  position: relative;
+  right: 10%;
+  padding: 35px;
+  height: 300px;
+
+}
+form .social-media{
+  margin-top: 2px;
+  text-align: center;
+  align-items: center;
+  font-size: 10px;
+}
+textarea{
+	 padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
+}
+.realisations h1 {
+	float: right;
+	text-align: center;
+	position: relative;
+	top: 25%;
+	right: 350px;
+	font-family: sans-serif;
+	font-size: 35px;
+
+}
+.realisations .para{
+	
+	text-align: center;
+	position: relative;
+	float: right;
+	right: 50px;
+	bottom: 55%;
+	font-family: sans-serif;
+	line-height: 35px;
+	font-size: 20px;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+
